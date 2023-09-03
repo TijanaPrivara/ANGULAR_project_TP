@@ -1,0 +1,19 @@
+<div class="input-container">
+  <input [(ngModel)]="messageText" class="input-field" (keydown.enter)="sendMessage()" placeholder="Type your message..." />
+  <div class="emoji-list" id="emoji-list" [hidden]="!showEmojiPicker">
+    <span (click)="addEmoji('😁')">😁</span>
+    <span (click)="addEmoji('😂')">😂</span>
+    <span (click)="addEmoji('😃')">😃</span>
+    <span (click)="addEmoji('😄')">😄</span>
+    <span (click)="addEmoji('😅')">😅</span>
+    <span (click)="addEmoji('😆')">😆</span>
+    <span (click)="addEmoji('😇')">😇</span>
+    <span (click)="addEmoji('😈')">😈</span>
+    <span (click)="addEmoji('😉')">😉</span>
+    <span (click)="addEmoji('😊')">😊</span>
+    <span (click)="addEmoji('😋')">😋</span>
+    <span (click)="addEmoji('😍')">😍</span>
+    
+  </div>
+  <button class="send-button" (click)="sendMessage()">Send</button>
+</div>

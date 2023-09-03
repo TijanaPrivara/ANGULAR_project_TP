@@ -1,0 +1,112 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .app-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+ 
+  main {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .thread-list {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .thread-list h2 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 20px;
+  }
+  
+  .thread-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .thread-list li {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .message-list {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .message-list h2 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 20px;
+  }
+  
+  .chat-input {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .chat-input input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .chat-input button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .user-list {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .user-list h2 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 20px;
+  }
+  
+  .user-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  

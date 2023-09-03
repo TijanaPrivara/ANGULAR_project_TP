@@ -1,0 +1,9 @@
+<div class="message-list">
+  <div *ngFor="let message of messages" class="message" [ngClass]="{'user-message': message.userType === 'user', 'automatic-message': message.userType === 'automatic'}">
+    <div>{{ message.text }}</div>
+    <div>{{ message.timestamp | date }}</div>
+    <div *ngIf="message.userType === 'automatic'" class="automatic-label">Automatic Response</div>
+  </div>
+</div>
+
+<button *ngIf="messages.length > 0" (click)="deleteConversation()">Delete & close conversation</button>

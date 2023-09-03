@@ -1,0 +1,10 @@
+<div class="app-container">
+  <header>
+    <h1>Chat with Anna</h1>
+  </header>
+
+  <main>
+    <app-message-list [messages]="messages"></app-message-list>
+    <app-chat-input (messageSent)="sendMessage($event, '1')"></app-chat-input>
+  </main>
+</div>
